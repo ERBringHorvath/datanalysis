@@ -3,12 +3,12 @@ import csv
 from collections import defaultdict
 
 # File path
-genbank_path = '/Users/ebh/Desktop/AphSulDistro/amsul.gb'
+genbank_path = ''
 
 # Read the GenBank file
 records = list(SeqIO.parse(genbank_path, 'genbank'))
 
-# A list to hold the extracted data
+#list to hold the extracted data
 data = []
 
 # Loop over the records
